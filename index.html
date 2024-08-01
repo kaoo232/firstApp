@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Add to Cart</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.6/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.6/firebase-database.js"></script>
+    <link rel="stylesheet" href="one.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="desc" content="card to-do list" />
+</head>
+
+<body>
+
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <h2 class="pixel-font">Welcome to the Shopping List App</h2>
+            <p style="color:whitesmoke">To add an item to your shopping list, type the item name in the input field and click "Add to cart".</p>
+            <p style="color:whitesmoke">To delete an item to your shopping list, press to the item name.</p>
+            <button id="close-overlay">Got it!</button>
+        </div>
+    </div>
+
+    <br>
+    <header>
+        <img id="logo" alt="candy" src="Cndy.png">
+    </header>
+    <br>
+    <br>
+    <div class="container" id="scrollable-section" style="height: 320px; ">
+        <img id="cat" src="https://i.pinimg.com/originals/a2/ac/28/a2ac282a60f8decc99a4e5ac7cdc2117.jpg" />
+        <br>
+        <br>
+        <input type="text" id="input-field" placeholder="Bread" />
+        <br>
+        <br>
+        <button id="add-button">Add to cart</button>
+        <br>
+        <ul id="shopping-List">
+
+        </ul>
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+        <script src="three.js" type="module"></script>
+
+</body>
+
+</html>
