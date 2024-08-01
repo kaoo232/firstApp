@@ -1,0 +1,155 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    user-select: none;
+}
+
+.overlay-content {
+    background-color: #362d3d;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px dotted #E5C7FF;
+    user-select: none;
+}
+
+#close-overlay {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+html,
+body {
+    background: #E5C7FF;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Enable vertical scrolling */
+    overflow-x: hidden;
+    user-select: none;
+    /* Hide horizontal scrolling */
+}
+
+header {
+    background-color: #B284BE;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border: 2px solid #0c0807;
+    user-select: none;
+}
+
+#cat {
+    height: 100%;
+    width: 100%;
+    margin: 3 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    height: 100%;
+}
+
+input {
+    color: #cf96ca;
+    background-color: #faf0fa;
+    border: 0;
+    padding: 15px;
+    border: 3px solid #0c0807;
+    user-select: none;
+}
+
+button {
+    border: 0;
+    padding: 15px;
+    background-color: #B284BE;
+    color: #ffffff;
+    cursor: pointer;
+    border: 3px solid #0c0807;
+    user-select: none;
+}
+
+#todo-list {
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+div {
+    width: 100%;
+    user-select: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    user-select: none;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #B284BE;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+}
+
+.pixel-font {
+    font-family: "Press_Start_2P", cursive;
+    /* Or your preferred pixel art font */
+    font-size: 16px;
+    color: #B284BE;
+    user-select: none;
+    /* Adjust as needed */
+}
+
+@font-face {
+    font-family: 'Press_Start_2P';
+    src: url('C:\Users\21355\Documents\MY first app\public\Press_Start_2P\PressStart2P-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #fab4fc;
+    cursor: pointer;
+    user-select: none;
+}
+
+ul li:hover {
+    background-color: #fab4fc;
+    cursor: pointer;
+    user-select: none;
+}
